@@ -1,0 +1,22 @@
+{
+  "name": "sistemapetshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaLira/SistemaPetShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaLira/SistemaPetShop/issues"
+  },
+  "homepage": "https://github.com/NataliaLira/SistemaPetShop#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}
