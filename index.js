@@ -17,10 +17,14 @@ http
       'Content-type': 'text/plain;charset=utf-8',
     });
     const parsedReq = url.parse(req.url, true);
-    // console.log(parsedReq);
+    const rota = parsedReq.pathname;
     const { name, rga } = parsedReq.query;
-    console.log(name);
-    res.end('Olá, ' + name);
+    switch (rota) {
+      case '/':
+        let pets = servicos.listarPets(listaDePets);
+        res.end(pets);
+        break;
+    }
   })
   .listen(3030, 'localhost', () => {
     console.log('Server on');
