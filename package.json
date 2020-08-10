@@ -18,5 +18,8 @@
   "homepage": "https://github.com/NataliaLira/SistemaPetShop#readme",
   "dependencies": {
     "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
