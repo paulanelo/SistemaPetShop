@@ -1,5 +1,6 @@
 [
     {
+        "rga": 1,
         "nome": "Max",
         "idade": "2",
         "raca": "puddle",
@@ -9,6 +10,7 @@
         "vacinado": true
     },
     {
+        "rga": 2,
         "nome": "Max",
         "idade": "2",
         "raca": "puddle",
@@ -16,8 +18,9 @@
         "cuidador": "Henrique",
         "castrado": true,
         "vacinado": true
-    }, 
+    },
     {
+        "rga": 3,
         "nome": "Max",
         "idade": "2",
         "raca": "puddle",

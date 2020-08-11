@@ -1,25 +1,10 @@
-const adicionarPet = (
-  nome,
-  idade,
-  raca,
-  sexo,
-  cuidador,
-  castrado,
-  vacinado,
-  rga
-) => {
+const adicionarPet = (nome, rga, lista) => {
   let novoPet = {
     nome,
-    idade,
-    raca,
-    sexo,
-    cuidador,
-    castrado,
-    vacinado,
     rga,
   };
 
-  listaDePets.push(novoPet);
+  lista.push(novoPet);
 };
 
 //criar uma função para listar os pets
@@ -53,12 +38,9 @@ const servico = (pet, servico) => {
   servico(pet);
 };
 
-const encontraPet = (petRga) => {
-  let petAchado = listaDePets.find(
-    (pet, numero) => !!(listaDePets[numero].rga == petRga)
-  );
-
-  return petAchado != undefined;
+const encontraPet = (petRga, lista) => {
+  let petEncontrado = lista.find((pet) => pet.rga == petRga);
+  return petEncontrado;
 };
 
 module.exports = {
